@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        a {
+            display: block;
+            background-color: #6200ea;
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        a:hover {
+            background-color: #4b00c0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Əsas Səhifə</h1>
+        <a href="/auth/login">Giriş Səhifəsi</a>
+        <a href="/auth/register">Qeydiyyat Səhifəsi</a>
+        <a href="/api/auth/password-reset-request">Şifrə Sıfırlama Səhifəsi</a>
+    </div>
+</body>
+
+</html>
